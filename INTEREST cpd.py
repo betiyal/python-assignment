@@ -1,0 +1,6 @@
+p=eval(input("enter the value of initial principal balance"))
+r=eval(input("enter the value of interest rate"))
+n=eval(input("enter the value of number of time interest applied pertime period"))
+t=eval(input("enter the value of number of time periods elapsed"))
+A=(p*((1+(r/n))**(n*t)))
+print(A)   
